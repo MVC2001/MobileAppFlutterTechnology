@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yourapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="${applicationName}"
+        android:label="clientapp"
+        android:icon="@mipmap/ic_launcher">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCJADAf7JInYekLqw7qkDugh1Zr4U8" />
+
+        <!-- Activities, themes, and other configurations -->
+        <!-- Ensure these are correctly configured as per your app's requirements -->
+
+    </application>
+
+    <!-- Queries and other configurations -->
+
+</manifest>
